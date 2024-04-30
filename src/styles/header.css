@@ -5,31 +5,29 @@ header {
 
 #navbar {
     width: 100%;
-    display: flex;
-    align-items: center;
     margin-top: 40px;
-    justify-content: space-between;
-
-    
-    
-    
 }
 
 #nav_logo {
     font-size: 24px;
     color: #F3800D;
-
+    position: absolute;
+    margin-left: 66px;
 }
 
 #nav_list {
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 48px;
 
 }
 
+.nav-item {
+    margin-top: 6px;
+}
+
 .nav-item a {
-    margin-right: 20px;
     text-decoration: none;
     color: #FFF;
     font-weight: 600;
